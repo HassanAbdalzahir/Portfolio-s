@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.top_bar{
+    background-color: #1F203A;
+    height: 70px;
+}
+.body_bar{
+    background-color: #1F203A;
+}
+.body_bar .digit1{
+    height: 350px;
+    background-color: #FCEB21;
+}
+.body_bar .digit2{
+    height: 700px;
+    background-color: #1F203A;
+}
+.body_bar .digit3{
+    height: 350px;
+    background-color: #FCEB21;
+}
