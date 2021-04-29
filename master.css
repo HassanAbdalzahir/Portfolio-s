@@ -28,11 +28,18 @@ body{
     height: 350px;
     background-color: #FCEB21;
     overflow: hidden;
+    font-size: 2rem;
 }
 .body_bar .digit1 .left{
     width: 40%;
     margin-left: 5%;
     float: left;
+}
+.left{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    text-align: center;
 }
 .body_bar .digit1 .left img{
     margin-top: 20px;
@@ -44,6 +51,19 @@ body{
     width: 40%;
     margin-right: 5%;
     float: right;
+    font-family: Arial, Tahoma, sans-serif;
+    color: rgb(5, 23, 51);
+    margin-top: 60px;
+    text-align: center;
+}
+.right{
+    width: 40%;
+    margin-right: 5%;
+    float: right;
+}
+.sspan{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4rem;
 }
 .body_bar .digit2{
     height: 350px;
@@ -57,7 +77,24 @@ body{
     height: 350px;
     background-color: #FCEB21;
 }
-
+.contact_bar .left input, .inputs{
+    background-color: rgba(255, 255, 255, 0);
+    border: rgba(238, 238, 238, 0);
+    border-bottom: #000 solid 1px;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+}
+.contact_bar .left button{
+    border: rgba(238, 238, 238, 0);
+    border-bottom: #000 solid 1px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 120px;
+    height: 60px;
+}
+.contact_bar .left .text{
+    height: 90px;
+}
 .bottom_bar{
     height: 70px;
     background-color: #1F203A;
