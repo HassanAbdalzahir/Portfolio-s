@@ -171,3 +171,57 @@ body{
     padding-top: 10px;
     font-size: large
 }
+
+@media only screen and (max-width: 768px){
+    *{
+        text-align: center;
+    }
+    .top_bar{
+        text-align: center;
+    }
+    .body_bar{
+        text-align: center;
+    }
+    .body_bar .digit1{
+        height: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .body_bar .digit1 .left {
+        float: none;
+    }
+    .body_bar .digit1 .right{
+        float: none;
+        width: 100%;
+    }
+    .body_bar .digit2{
+        text-align: center;
+    }
+    .body_bar .digit2 h1 {
+        font-size: 4rem;
+    }
+    .body_bar .digit3 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .body_bar .digit3 .BLOCKS {
+        height: auto;
+    }
+    .body_bar .digit3 .BLOCK{
+        float: none;
+    }
+    .contact_bar{
+        text-align: center;
+        height: auto;
+        overflow: hidden;
+        font-size: 1.5rem;
+        padding-bottom: 2px;
+    }
+    .contact_bar .left{
+        float: none;
+    }
+    .contact_bar .right{
+        float: none;
+    }
+
+}
