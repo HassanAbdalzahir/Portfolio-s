@@ -84,13 +84,17 @@ body{
     margin: 10px;
     width: 300px;
     height: 40px;
+    outline: none;
+}
+.inputs{
+    height: 90px;
 }
 .contact_bar .left button{
     border: rgba(238, 238, 238, 0);
     border-bottom: #000 solid 1px;
     background-color: rgba(255, 255, 255, 0);
     width: 120px;
-    height: 60px;
+    height: 40px;
 }
 .contact_bar .left .text{
     height: 90px;
