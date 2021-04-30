@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    user-select: none;
+}
 body{
     margin: 0;
     padding: 0;
@@ -22,6 +29,7 @@ body{
 }
 .body_bar{
     background-color: #1F203A;
+    height: auto;
 }
 .body_bar .digit1{
     width: 100%;
@@ -66,8 +74,27 @@ body{
     font-size: 1.4rem;
 }
 .body_bar .digit2{
-    height: 350px;
+    height: auto;
     background-color: #1F203A;
+    margin: 0 10% 200px 10%;
+    color: #eee;
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+.body_bar .digit2 h1{
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+}
+.body_bar .digit2 h3{
+    letter-spacing: 5px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.body_bar .digit2 p{
+    font-weight: lighter;
+    font-size: large;
+    letter-spacing: 2px;
 }
 .body_bar .digit3{
     height: auto;
@@ -76,6 +103,7 @@ body{
 .contact_bar {
     height: 350px;
     background-color: #FCEB21;
+    margin-top: 0;
 }
 .contact_bar .left input, .inputs{
     background-color: rgba(255, 255, 255, 0);
@@ -99,7 +127,22 @@ body{
 .contact_bar .left .text{
     height: 90px;
 }
+.contact_bar .right{
+    padding: 40px;
+}
+.contact_bar .right h1{
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.contact_bar .right span{
+    margin: 10px;
+    margin-top: 20px;
+}
 .bottom_bar{
     height: 70px;
     background-color: #1F203A;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: large
 }
