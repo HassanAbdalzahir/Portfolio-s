@@ -53,7 +53,6 @@ body{
     margin-top: 20px;
     width: 300px;
     height: 120%;
-    margin-left: 10%;
 }
 .body_bar .digit1 .right{
     width: 40%;
@@ -99,6 +98,24 @@ body{
 .body_bar .digit3{
     height: auto;
     background-color: #1F203A;
+    margin: 0 10% 0 10%;
+}
+.body_bar .digit3 .BLOCKS{
+    margin-left: 5%;
+    height: 500px;
+}
+.body_bar .digit3 .BLOCK{
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    background-color: rgba(33, 71, 177, 0.37);
+    border: solid 2px #eee;
+    float: left;
+    cursor: pointer;
+    transition: .5s all;
+}
+.body_bar .digit3 .BLOCK:hover{
+    transform: scale(1.2);
 }
 .contact_bar {
     height: 350px;
