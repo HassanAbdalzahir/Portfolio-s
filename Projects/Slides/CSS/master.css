@@ -1,0 +1,41 @@
+
+body{
+    padding:0;
+    margin:0;
+    font-family: tahoma;
+    font-size: 1.5rem;
+}
+.container{
+    width: 480px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border: black 2px solid;
+}
+.screen{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.img{
+    width: 0%;
+    height: 0%;
+    position: relative;
+    transform: scale(0);
+    transition: ease-in-out all .3s;
+}
+.active{
+    transform: scale(1);
+    width: 90%;
+    height: 90%;
+}
+.buttons{
+    width: 100%;
+    height: 20%;
+}
+.bkey{
+    width: 20%;
+}

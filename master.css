@@ -112,10 +112,18 @@ body{
     border: solid 2px #eee;
     float: left;
     cursor: pointer;
-    transition: .5s all;
+    color: cornsilk;
+    transition: .2s all;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
 }
 .body_bar .digit3 .BLOCK:hover{
     transform: scale(1.2);
+}
+.body_bar .digit3 .BLOCK span{
+    position: relative;
+    top: 40%;
 }
 .contact_bar {
     height: 350px;

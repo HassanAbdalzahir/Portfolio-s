@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+}
+body{
+  background-color: rgb(195, 231, 228);
+  font-family: arial, tahome;
+}
+.calculator {
+  margin: 30px auto;
+  width: 700px;
+  text-align: center;
+}
+
+button{
+  width: 150px;
+  height: 60px;
+}
+.ops{
+  width: 100px;
+}
+.viewer{
+  height: 150px;
+  width: 100%;
+  background-color: rgba(15, 54, 161, 0.438);
+  border-radius: 80px;
+  font-size: 4rem;
+  padding: 20px;
+  overflow: auto;
+  color: #fefefe;
+  padding-top: 80px;
+}
