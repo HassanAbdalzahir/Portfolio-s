@@ -12,7 +12,7 @@ body{
     font-size: 1.5rem;
 }
 .container{
-    width: 90%;
+    width: 700px;
     margin: 0 auto;
 }
 .top_bar{
@@ -105,21 +105,26 @@ body{
     height: 500px;
 }
 .body_bar .digit3 .BLOCK{
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     margin: 20px;
     background-color: rgba(33, 71, 177, 0.37);
     border: solid 2px #eee;
-    float: left;
     cursor: pointer;
     color: cornsilk;
     transition: .2s all;
     font-size: 2rem;
     text-align: center;
     position: relative;
+    float:left;
 }
 .body_bar .digit3 .BLOCK:hover{
     transform: scale(1.2);
+}
+.body_bar .digit3 a{
+    text-decoration: none;
+    width: 160px;
+    height: 160px;
 }
 .body_bar .digit3 .BLOCK span{
     position: relative;
@@ -129,13 +134,18 @@ body{
     height: 350px;
     background-color: #FCEB21;
     margin-top: 0;
+
+}
+.contact_bar .left{
+    width: 40%;
+    float: left;
 }
 .contact_bar .left input, .inputs{
     background-color: rgba(255, 255, 255, 0);
     border: rgba(238, 238, 238, 0);
     border-bottom: #000 solid 1px;
     margin: 10px;
-    width: 300px;
+    width: 250px;
     height: 40px;
     outline: none;
 }
@@ -153,11 +163,13 @@ body{
     height: 90px;
 }
 .contact_bar .right{
-    padding: 40px;
+    padding: 30px;
+    width: 40%;
+    float: right;
+
 }
 .contact_bar .right h1{
-    margin: 10px;
-    margin-bottom: 50px;
+    margin: 10px 0 50px 0;
 }
 .contact_bar .right span{
     margin: 10px;
@@ -172,9 +184,12 @@ body{
     font-size: large
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 450px){
     *{
         text-align: center;
+    }
+    .container{
+        width: 100%;
     }
     .top_bar{
         text-align: center;
@@ -189,6 +204,10 @@ body{
     }
     .body_bar .digit1 .left {
         float: none;
+    }
+    .body_bar .digit1 .left img{
+        text-align: center;
+        margin: 15px;
     }
     .body_bar .digit1 .right{
         float: none;
@@ -219,9 +238,11 @@ body{
     }
     .contact_bar .left{
         float: none;
+        width: 100%;
     }
     .contact_bar .right{
         float: none;
+        width: 100%;
     }
 
 }
