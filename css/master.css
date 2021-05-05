@@ -99,6 +99,7 @@ body{
     height: auto;
     background-color: #1F203A;
     margin: 0 10% 0 10%;
+    overflow: auto;
 }
 .body_bar .digit3 .BLOCKS{
     margin-left: 5%;
@@ -134,7 +135,6 @@ body{
     height: 350px;
     background-color: #FCEB21;
     margin-top: 0;
-
 }
 .contact_bar .left{
     width: 40%;
@@ -222,6 +222,7 @@ body{
     .body_bar .digit3 {
         height: auto;
         padding-bottom: 20px;
+        margin-left: 60px;
     }
     .body_bar .digit3 .BLOCKS {
         height: auto;
