@@ -233,6 +233,9 @@ body{
             .body_bar .digit2{
                 text-align: center;
             }
+            .body_bar .digit2 h1{
+                font-size: 4rem;
+            }
         }
         @media (min-width: 768px){
     
@@ -246,8 +249,14 @@ body{
         */
         /* 2.3: */
         @media (max-width: 767px){
+            .body_bar .digit3 .BLOCKS{
+                margin: auto;
+                text-align: center;
+                padding-bottom: 20px;
+            }
             .body_bar .digit3 .BLOCK{
-                float: left;
+                margin: auto;
+                margin-top: 20px ;
             }
         }
         @media (min-width: 768px){

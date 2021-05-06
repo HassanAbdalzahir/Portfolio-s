@@ -68,11 +68,11 @@ body{ /**/
     margin-right: 5%;
     float: right;
 }
-.details{
+.details{ /**/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.4rem;
 }
-.body_bar .digit2{
+.body_bar .digit2{/**/
     height: auto;
     background-color: #1F203A;
     margin: 0 10% 0 10%;
@@ -80,17 +80,17 @@ body{ /**/
     margin-top: 100px;
     padding-bottom: 60px;
 }
-.body_bar .digit2 h1{
+.body_bar .digit2 h1{/**/
     font-size: 100px;
     letter-spacing: 10px;
     margin-bottom: 15px;
 }
-.body_bar .digit2 h3{
+.body_bar .digit2 h3{/**/
     letter-spacing: 5px;
     font-weight: lighter;
     margin-bottom: 30px;
 }
-.body_bar .digit2 p{
+.body_bar .digit2 p{/**/
     font-weight: lighter;
     font-size: large;
     letter-spacing: 2px;
