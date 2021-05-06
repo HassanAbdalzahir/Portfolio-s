@@ -1,0 +1,302 @@
+/* The General: */
+body{
+    font-family: arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+.top_bar{
+    background-color: #1F203A;
+    height: 70px;
+    padding-bottom: 5px;
+}
+.top_bar img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    transform: scale(1.3);
+}
+.body_bar{
+    background-color: #1F203A;
+    height: auto;
+}
+.body_bar .digit1{ 
+    background-color: #FCEB21;
+    font-size: 2rem;
+}
+.body_bar .digit1 .left img{
+    margin-top: 20px;
+    width: 300px;
+}
+.body_bar .digit1 .right{
+    font-family: Arial, Tahoma, sans-serif;
+    color: rgb(5, 23, 51);
+    margin-top: 60px;
+    text-align: center;
+}
+/*.body_bar .digit1 .right*/.details{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4rem;
+}
+.body_bar .digit2{
+    background-color: #1F203A;
+    color: #eee;
+    padding-bottom: 60px;
+}
+.body_bar .digit2 h1{
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+}
+.body_bar .digit2 h3{
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+.body_bar .digit2 p{
+    font-weight: lighter;
+    font-size: large;
+    letter-spacing: 2px;
+}
+.body_bar .digit3{
+    background-color: #1F203A;
+    overflow: auto;
+}
+
+.body_bar .digit3 .BLOCK{
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+    background-color: rgba(33, 71, 177, 0.37);
+    border: solid 2px #eee;
+    cursor: pointer;
+    color: cornsilk;
+    transition: .2s all;
+    font-size: 2rem;
+    text-align: center;
+}
+.body_bar .digit3 .BLOCK:hover{
+    transform: scale(1.2);
+}
+.body_bar .digit3 a{
+    text-decoration: none;
+    width: 160px;
+    height: 160px;
+}
+.body_bar .digit3 .BLOCK span{
+    position: relative;
+    top: 40%;
+}
+.contact_bar {
+    background-color: #FCEB21;
+}
+
+.contact_bar .left input, .inputs{
+    background-color: rgba(255, 255, 255, 0);
+    border: rgba(238, 238, 238, 0);
+    border-bottom: #000 solid 1px;
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    outline: none;
+}
+.inputs{
+    height: 90px;
+}
+.contact_bar .left button{
+    border: rgba(238, 238, 238, 0);
+    border-bottom: #000 solid 1px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 120px;
+    height: 40px;
+}
+.contact_bar .left .text{
+    height: 90px;
+}
+.contact_bar .right{
+    padding: 30px;
+}
+
+
+.bottom_bar{
+    height: 60px;
+    background-color: #1F203A;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: large
+}
+
+@media (max-width: 767px){
+    .container{
+        width: auto;
+        margin: auto;
+        padding: 0 10px 0 10px;
+    }
+}
+@media (min-width: 768px){
+    .container{
+        width: 750px;
+        margin: auto;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        width: 970px;
+        margin: auto;
+    }
+}
+/* The General; */
+/*
+*
+*/
+/* Media Queries: */
+    /* 1: */
+    @media (max-width: 767px){
+        .top_bar{
+            text-align: center;
+        }
+    }
+    @media (min-width: 768px){
+
+    }
+    @media (min-width: 992px){
+
+    }
+    /* 1; */
+    /*
+    *
+    */
+    /* 2: */
+    @media (max-width: 767px){
+        .body_bar{
+            height: auto;
+        }
+    }
+    @media (min-width: 768px){
+        .body_bar{
+            height: auto;
+        }
+    }
+    @media (min-width: 992px){
+        .body_bar{
+            height: auto;
+        }
+    }
+        /* 2.1: */
+        @media (max-width: 767px){
+            .body_bar .digit1{
+                height: auto;
+                box-sizing: border-box;
+                text-align: center;
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+            .body_bar .digit1 .left{
+                width: 100%;
+                text-align: center;
+            }
+            .body_bar .digit1 .right{
+                width: 100%;
+                text-align: center;
+            }
+        }
+        @media (min-width: 768px){
+            .body_bar .digit1{
+                height: 350px;
+                box-sizing: border-box;
+            }
+            .body_bar .digit1 .left{
+                width: 50%;
+                height: 100%;
+                float: left;
+            }
+            .body_bar .digit1 .right{
+                width: 50%;
+                height: 100%;
+                float: right;
+                color: #192928;
+                
+            }
+            .body_bar .digit1 .right strong{
+                letter-spacing: 20px;
+            }
+        }
+        @media (min-width: 992px){
+            .body_bar .digit1{
+
+            }
+        }
+        /* 2.1; */
+        /*
+        *
+        */
+        /* 2.2: */
+        @media (max-width: 767px){
+            .body_bar .digit2{
+                text-align: center;
+            }
+        }
+        @media (min-width: 768px){
+    
+        }
+        @media (min-width: 992px){
+            
+        }
+        /* 2.2; */
+        /*
+        *
+        */
+        /* 2.3: */
+        @media (max-width: 767px){
+            .body_bar .digit3 .BLOCK{
+                float: left;
+            }
+        }
+        @media (min-width: 768px){
+            .body_bar .digit3 .BLOCK{
+                float: left;
+                width: 190px;
+                height: 190px;
+            }
+        }
+        @media (min-width: 992px){
+            
+        }
+        /* 2.3; */
+    /* 2; */
+    /*
+    *
+    */
+    /* 3: */
+    @media (max-width: 767px){
+        .contact_bar{
+            overflow: hidden;
+            text-align: center;
+            box-sizing: border-box;
+        }
+    }
+    @media (min-width: 768px){
+        .contact_bar{
+            overflow: hidden;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .contact_bar .left{
+            float: left;
+            width: 45%;
+            font-size: 1rem;
+        }
+        .contact_bar .right{
+            float: right;
+            width: 45%;
+        }
+    }
+    @media (min-width: 992px){
+        
+    }
+    /* 3; */
+/* Media Queries; */
+/*
+*
+*/
+/* My Frame Work: */
+
+/* My Frame Work; */
